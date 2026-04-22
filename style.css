@@ -401,7 +401,6 @@
   color: #ffbdb5;
   letter-spacing: 2px;
 }
-
 /* dots */
 .dots span {
   width: 8px;
@@ -411,7 +410,6 @@
   border-radius: 50%;
   margin: 0 4px;
 }
-
 .dots .active {
   background: #e6d0cd;
 }
