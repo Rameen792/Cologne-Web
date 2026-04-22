@@ -20,27 +20,35 @@
   position: relative;
   z-index: 2;
 }
+
+.feature-section {
+  background: #fff7ef;
+}
+
 .feature-box {
-  padding: 30px 20px;
-  border: 1px solid #eee;
+  padding: 35px 25px;
+  background: #ffd0d8; 
+  border: 1px solid #ffffff;
   transition: all 0.3s ease;
-  background: #fff;
+  text-align: center;
+  border-radius: 16px;
 }
 
 .feature-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px #00000012;
+  border-color: #ffd0d8;
 }
 
 .feature-box h5 {
-  font-weight: 600;
-  margin-top: 10px;
   font-size: 16px;
-  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
 }
 
 .feature-box p {
-  margin: 0;
   font-size: 13px;
   color: #777;
+  margin: 0;
 }
