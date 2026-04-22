@@ -115,3 +115,26 @@
   color: #8b6f4e;
   font-weight: 600;
 }
+.section-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-intro p {
+  letter-spacing: 4px;
+  font-size: 13px;
+  color: #b08d57;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+
+.section-intro h3 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
