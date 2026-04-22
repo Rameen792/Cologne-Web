@@ -323,44 +323,55 @@
   overflow: hidden;
 }
 
-/* corner images */
+.testimonial-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#ffffff, #f9f3f2);
+  z-index: 0;
+}
+
+/* blended corner images */
 .corner-img {
   position: absolute;
-  width: 320px;
-  height: 320px;
+  width: 380px;
+  height: 380px;
   object-fit: cover;
-  opacity: 0.9;
-  filter: grayscale(10%);
+  opacity: 0.18;
+  filter: blur(1px) grayscale(20%);
+  transform: scale(1.1);
+  z-index: 0;
 }
 
 .top-left {
-  top: -40px;
-  left: -40px;
-  transform: rotate(-10deg);
+  top: -80px;
+  left: -120px;
+  transform: rotate(-12deg);
 }
 
 .bottom-right {
-  bottom: -40px;
-  right: -40px;
-  transform: rotate(12deg);
+  bottom: -100px;
+  right: -140px;
+  transform: rotate(18deg);
 }
 
-/* main card */
+/* main testimonial card */
 .testimonial-box {
+  position: relative;
   text-align: center;
   max-width: 750px;
   margin: auto;
-  padding: 60px;
-  border: 1px solid #e6d0cd;
-  position: relative;
+  padding: 70px;
   background: #ffffff;
+  border: 1px solid #e6d0cd;
   z-index: 2;
+  box-shadow: 0 20px 60px #00000010;
 }
 
 /* text styles */
 .testimonial-subtitle {
   font-family: "Playfair Display", serif;
-  color: #e6d0cd;
+  color: #ffbdb5;
   font-size: 22px;
   margin-bottom: 10px;
 }
@@ -370,6 +381,7 @@
   font-weight: 500;
   margin-bottom: 25px;
   letter-spacing: 1px;
+  color: #1a1a1a;
 }
 
 .testimonial-text {
@@ -386,15 +398,11 @@
 
 .testimonial-role {
   font-size: 12px;
-  color: #e6d0cd;
+  color: #ffbdb5;
   letter-spacing: 2px;
 }
 
 /* dots */
-.dots {
-  margin-top: 25px;
-}
-
 .dots span {
   width: 8px;
   height: 8px;
