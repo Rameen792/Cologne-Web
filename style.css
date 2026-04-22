@@ -98,7 +98,7 @@
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 15px 30px #1a1a1a;
   border-color: #c8b9a6;
 }
 
@@ -117,24 +117,23 @@
 }
 .section-intro {
   text-align: center;
-  margin-bottom: 50px;
+  padding: 80px 0 40px 0;
 }
 
 .section-intro p {
-  letter-spacing: 4px;
-  font-size: 13px;
+  letter-spacing: 5px;
+  font-size: 25px;
   color: #b08d57;
   margin: 0;
   text-transform: uppercase;
-  font-weight: 500;
   font-family: "Playfair Display", serif;
 }
 
 .section-intro h3 {
-  font-size: 42px;
+  font-size: 56px;
   font-weight: 500;
   color: #1a1a1a;
-  margin-top: 10px;
+  margin-top: 12px;
   font-family: "Playfair Display", serif;
   letter-spacing: 1px;
 }
