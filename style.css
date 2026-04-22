@@ -137,3 +137,50 @@
   font-family: "Playfair Display", serif;
   letter-spacing: 1px;
 }
+.brand-strip {
+  position: relative;
+  background-image: url("./assets/images/home1-bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.brand-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 248, 240, 0.9);
+  top: 0;
+  left: 0;
+}
+
+.brand-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  width: max-content;
+  animation: scrollBrands 30s linear infinite;
+}
+
+.brand-track img {
+  width: 120px;
+  height: auto;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.brand-track img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@keyframes scrollBrands {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
